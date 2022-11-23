@@ -1,0 +1,8 @@
+reactJs
+typescript
+nextJS
+Saas
+axios
+nookies
+jwt decode
+react-modal

@@ -1,0 +1,72 @@
+.containerCenter{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-900);
+}
+
+.image{
+    height: 350px;
+    width: 600px;
+}
+
+.login{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    
+    h1{
+        color: var(--white);
+        padding-bottom: 1rem;
+    }
+
+    form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form button{
+        height: 40px;
+        size: 1.2rem;
+    }
+}
+
+.text{
+    margin-top: 1rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+@media (max-width: 620px){
+    .login{
+        width: 100%;
+        form{
+            width: 70%;
+        }
+    }
+    .image{
+        width: 250px;
+        height: 250px;
+
+    }
+}
+
+@media (max-width: 425px){
+    .login{
+        width: 100%;
+        form{
+            width: 70%;
+        }
+    }
+    .image{
+        width: 250px;
+        height: 250px;
+
+    }
+}
